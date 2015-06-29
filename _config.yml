@@ -1,0 +1,14 @@
+# SITE CONFIGURATION
+
+url: "http://askthecto.github.io" # the base hostname & protocol for your site
+title: "AskTheCTO"
+permalink: /:year/:month/:title/	
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+paginate: 3
+paginate_path: "page/:num"
+include: ['_pages']
+markdown: kramdown
+
+
+
+

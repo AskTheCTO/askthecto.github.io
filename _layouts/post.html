@@ -1,0 +1,51 @@
+---
+layout: default
+---	
+	<div class="blog">
+			<div class="col-md-12">
+				<div class="blog-grid-in text-justify">		
+							<img class="img-responsive " src="{{ page.image }}" alt="{{ page.title }} - image" />
+					<div class="blog-top">
+						<div class="blog-left">
+							<b>{{ page.date | date: "%d" }}</b>
+							<span>{{ page.date | date: "%b" }}</span>
+						</div>
+						<div class="top-blog">
+							<a class="fast" href="{{ page.url }}">{{page.title}} </a>
+							<br /><br />
+							<!--<p>Posted by <a href="single.html">Admin</a> in General | <a href="single.html">10 Comments</a></p> -->
+							<p class="to-blog">{{ content }}</p> 
+							
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					</div>
+					
+
+					<!-- related posts -->
+<div class=" single-profile">
+				<h4> RELATED POSTS</h4>
+				<div class="single-left ">	
+ {% for post in site.related_posts limit:4 %}				
+					<div class="col-md-3 post-top">
+					<img class="img-responsive " src="{{post.image}}" alt="">
+						<h6>{{post.title}}</h6>
+					</div>
+					 {% endfor %}
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- related-->
+			
+			<!--DisQus -->
+			<hr />
+<div class="leave-comment">
+				<h3>COMMENTS</h3>
+			{% include disqus.html %}
+		</div>		
+<!--DisQus -->		
+				</div>	
+
+			<div class="clearfix"> </div>
+			
+		</div>	

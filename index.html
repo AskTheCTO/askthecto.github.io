@@ -1,0 +1,77 @@
+---
+layout: default
+---
+		<div class="blog">
+			<h2>{{site.title}}</h2>
+			<div class="col-md-12">
+			{% for post in paginator.posts %}
+			<article>
+					<div class="blog-grid">		
+							<a href="{{post.url}}"><img class="img-responsive " src="{{ post.image }}" alt="{{ post.title }} - image" /></a>
+					<div class="blog-top">
+						<div class="blog-left">
+							<b>{{ post.date | date: "%d" }}</b>
+							<span>{{ post.date | date: "%b" }}</span>
+						</div>
+						<div class="top-blog">
+							<a class="fast" href="{{ post.url }}">{{post.title}} </a>
+							<br /><br />
+							<!--<p>Posted by <a href="single.html">Admin</a> in General | <a href="single.html">10 Comments</a></p> -->
+							
+
+								<p class="to-blog text-justify">{{ post.content | strip_html | truncatewords: 100 }}</p>							
+							
+							<a  href="{{post.url}}" class="more more-in">Readmore</a>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					</div>
+					</article>
+							{% endfor %}			
+					<div class="clearfix"> </div>
+		
+		<!--Pagination-->
+		
+		{% if paginator.total_pages > 1 %}
+<ul class="start">
+  {% if paginator.previous_page %}
+  <li>
+    <a rel="prev" href="{{ paginator.previous_page_path | replace: 'index.html', '/' | prepend: site.baseurl | replace: '//', '/' }}">	&laquo; Prev</a>
+	</li>
+  {% else %}
+   <li> <span>&laquo; Prev</span></li>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <li class="active"><a>{{ page }}</a></li>
+    {% elsif page == 1 %}
+      <li><a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+    {% else %}
+      <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <li><a rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
+  {% else %}
+    <li><span>Next &raquo;</span></li>
+  {% endif %}
+</ul>
+{% endif %}
+
+			<!--<ul class="start">
+					
+					<li><span>1</span></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					
+				</ul>
+				<!--Pagination-->
+				
+				
+				</div>
+				
+			
+			
+		</div>	

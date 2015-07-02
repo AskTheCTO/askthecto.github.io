@@ -4,11 +4,10 @@
 <link href="/assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <script src="/assets/js/jquery.min.js"></script>
 <link href="/assets/css/style.css" rel="stylesheet" type="text/css" media="all" />	
-<link rel="icon" type="image/png" href="http://www.smithtechnologygroup.net/images/favicon.png">	
+<link rel="icon" type="image/png" href="/assets/images/favicon.png">	
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
-
 <title>{% if page.title != null %} {{ page.title }} | {{site.title}} {% else %}{{site.title}}{% endif %}</title>
 {% if page.description %}<meta name="description" content="{{page.description}}">
 {% else %} <meta name="description" content="{{ post.content | strip_html | truncatewords: 50 }}"> {% endif %}

@@ -2,6 +2,7 @@
 
 url: "http://askthecto.com" # the base hostname & protocol for your site
 title: "Ask The CTO"
+description: "Notes on Leadership. The management of the past is obsolete."
 permalink: /:year/:month/:title/	
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 paginate: 3

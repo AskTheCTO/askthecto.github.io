@@ -1,9 +1,9 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="http://mycpanel.ml/ae/assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <script src="/assets/js/jquery.min.js"></script>
-<link href="http://mycpanel.ml/ae/assets/css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<link href="/assets/css/style.css" rel="stylesheet" type="text/css" media="all" />	
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
@@ -14,7 +14,7 @@
 <meta content="{{ site.title }}" property="og:site_name">
 {% if page.title %}  <meta content="article" property="og:type">{% else %}  <meta content="website" property="og:type">{% endif %}
 {% if page.url %}  <meta content="{{site.url}}{{ page.url | remove: 'index.html'}}" property="og:url"> {% endif %}
-{% if page.image %}<meta property='og:image' content='{{page.image}}'/>{% else %}<meta property='og:image' content='{{site.logo}}'/>{% endif %}
+{% if page.image %}<meta property='og:image' content='{{page.image}}'/>{% else %}<meta property='og:image' content='{{site.url}}/assets/images/banner1.jpg'/>{% endif %}
 <meta property='og:title' content='{% if page.title != null %} {{ page.title }} | {{site.title}} {% else %}{{site.title}}{% endif %}'/>
 {% if page.description %}<meta name="og:description" content="{{page.description}}">
 {% else %} <meta name="og:description" content="{{ post.content | strip_html | truncatewords: 50 }}"> {% endif %}

@@ -28,8 +28,8 @@ layout: default
 				<div class="single-left ">	
  {% for post in site.related_posts limit:4 %}				
 					<div class="col-md-3 post-top">
-					<img class="img-responsive " src="{{post.image}}" alt="">
-						<h6>{{post.title}}</h6>
+					<a href="{{post.url}}"><img class="img-responsive " src="{{post.image}}" alt="{{post.title}} - image">
+						<h6>{{post.title}}</h6></a>
 					</div>
 					 {% endfor %}
 					<div class="clearfix"> </div>

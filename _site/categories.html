@@ -6,6 +6,8 @@
 <link href="/assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <script src="/assets/js/jquery.min.js"></script>
 <link href="/assets/css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<script src="http://api.tweecool.com/js/tweecool.min.js"></script>
+<script src="/assets/js/tweets.js"></script>
 <link rel="icon" type="image/png" href="/assets/images/favicon.PNG">	
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
@@ -21,44 +23,21 @@
 
 
 </head>
-<body> 
-<div class="header">
-<div class="banner"></div>
-<div class="header-top">
+  <body> 
+	<div class="header">
+		<div class="banner"></div>
+	<div class="header-top">
 	<div class="container">
      		<div class="title-head">
      		 	<h1><a href="/">Ask The CTO</a></h1>
 				<p>Notes on Leadership. The management of the past is obsolete.</p>
      		 </div>
      		<div class="clearfix"> </div>
-			<!--<div class="bottom-header">
-     		 	<div class="logo">
-     		 		<h1><a href="/">Ask The CTO</a></h1>
-     		 	</div>
-     		 	<div class="top-nav">
-				<span class="menu"><img src="/assets/images/menu.png" alt=""> </span>
-
-     		 		<ul>
-						<li  ><a href="/">Home</a></li>
-     		 		     		 			<li><a href="/contact/">Contact</a></li>
-     		 			<div class="clearfix"> </div>
-     		 		</ul>
-					<script>
-						$("span.menu").click(function(){
-							$(".top-nav ul").slideToggle(500, function(){
-							});
-						});
-					</script>
-
-     		 	</div>
-     		 <div class="clearfix"> </div>
-     		</div>-->
 	</div>
 </div>
-
-<div class="content">
-<div class="container">
-<div class="m25">
+		<div class="content">
+			<div class="container">
+		<div class="m25">
 			<h1 class="text-center">Categories</h1><hr />
 			<div class="col-md-12">
 
@@ -67,11 +46,10 @@
 
 
 
+			</div>
+		</div>
 	</div>
-	</div>
-</div>
-
-<!--Footer-->
+	<!--Footer-->
 <div class="footer">
 		<div class="container">
 			<div class="footer-top">
@@ -84,18 +62,13 @@
 				</ul>
 				</div>
 				<div class="col-md-4 amet-sed amet-medium">
-				
-				            <a class="twitter-timeline"  href="https://twitter.com/AskTheCTO" data-widget-id="617014410666643457">Tweets by @AskTheCTO</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          
+				<h4> Recent Tweets</h4>
+		  <div id="tweecool"></div>
 				</div>
 				<div class="col-md-4 amet-sed ">
 				<h4>Follow Us</h4>
 				<ul class="social-icons">
-					<!--<li><a href="#"><span> </span> </a></li>-->
 					<li class="twitter"><a href="https://twitter.com/askthecto"><span></span></a></li>
-					<!--<li class="rss"><a href="#"><span> </span> </a></li>
-					<li class="print"><a href="#"><span> </span> </a></li>-->
 				</ul>
 				</div>
 				<div class="clearfix"> </div>
@@ -104,6 +77,5 @@
 		</div>
 	</div>
 	<!--Footer-->
-
-</body>
+  </body>
 </html>									

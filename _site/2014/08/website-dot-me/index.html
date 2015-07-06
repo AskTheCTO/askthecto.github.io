@@ -6,6 +6,8 @@
 <link href="/assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <script src="/assets/js/jquery.min.js"></script>
 <link href="/assets/css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<script src="http://api.tweecool.com/js/tweecool.min.js"></script>
+<script src="/assets/js/tweets.js"></script>
 <link rel="icon" type="image/png" href="/assets/images/favicon.PNG">	
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
@@ -23,44 +25,21 @@
 
 
 </head>
-<body> 
-<div class="header">
-<div class="banner"></div>
-<div class="header-top">
+  <body> 
+	<div class="header">
+		<div class="banner"></div>
+	<div class="header-top">
 	<div class="container">
      		<div class="title-head">
      		 	<h1><a href="/">Ask The CTO</a></h1>
 				<p>Notes on Leadership. The management of the past is obsolete.</p>
      		 </div>
      		<div class="clearfix"> </div>
-			<!--<div class="bottom-header">
-     		 	<div class="logo">
-     		 		<h1><a href="/">Ask The CTO</a></h1>
-     		 	</div>
-     		 	<div class="top-nav">
-				<span class="menu"><img src="/assets/images/menu.png" alt=""> </span>
-
-     		 		<ul>
-						<li  ><a href="/">Home</a></li>
-     		 		     		 			<li><a href="/contact/">Contact</a></li>
-     		 			<div class="clearfix"> </div>
-     		 		</ul>
-					<script>
-						$("span.menu").click(function(){
-							$(".top-nav ul").slideToggle(500, function(){
-							});
-						});
-					</script>
-
-     		 	</div>
-     		 <div class="clearfix"> </div>
-     		</div>-->
 	</div>
 </div>
-
-<div class="content">
-<div class="container">
-	<div class="blog">
+		<div class="content">
+			<div class="container">
+			<div class="blog">
 			<div class="col-md-12">
 				<div class="blog-grid-in text-justify">		
 							<img class="img-responsive " src="http://i2.wp.com/website.me/img/bk_main.png" alt="One place to store all your website logins - image" />
@@ -72,7 +51,6 @@
 						<div class="top-blog">
 							<a class="fast" href="/2014/08/website-dot-me/">One place to store all your website logins </a>
 							<br /><br />
-							<!--<p>Posted by <a href="single.html">Admin</a> in General | <a href="single.html">10 Comments</a></p> -->
 							<p class="to-blog"><p>It gets quite hard when you’ve to manage multiple cPanels &amp; WordPress logins and if you’re designer/developer you might have and remembering Login credential for them sometimes become pain in the arse. </p>
 
 <p>If you are a designer or developer today, you probably juggle dozens, if not hundreds of individual cPanel® and WordPress logins for yourself, your clients, your friends and family and maybe even the neighbor’s dog. Like us, you’ve probably created your own system of text files, spreadsheets and sticky notes to manage these logins. </p>
@@ -115,7 +93,7 @@ to set as background but if you prefer using your own, you can upload and use it
 <div class="leave-comment">
 				<h3>COMMENTS</h3>
 			<div id="disqus_thread"></div>
-<script type="text/javascript" src="http://mycpanel.ml/ae/assets/js/comments.js"></script>
+<script type="text/javascript" src="/assets/js/comments.js"></script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 		</div>		
 <!--DisQus -->		
@@ -124,11 +102,10 @@ to set as background but if you prefer using your own, you can upload and use it
 			<div class="clearfix"> </div>
 			
 		</div>	
+			</div>
+		</div>
 	</div>
-	</div>
-</div>
-
-<!--Footer-->
+	<!--Footer-->
 <div class="footer">
 		<div class="container">
 			<div class="footer-top">
@@ -141,18 +118,13 @@ to set as background but if you prefer using your own, you can upload and use it
 				</ul>
 				</div>
 				<div class="col-md-4 amet-sed amet-medium">
-				
-				            <a class="twitter-timeline"  href="https://twitter.com/AskTheCTO" data-widget-id="617014410666643457">Tweets by @AskTheCTO</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          
+				<h4> Recent Tweets</h4>
+		  <div id="tweecool"></div>
 				</div>
 				<div class="col-md-4 amet-sed ">
 				<h4>Follow Us</h4>
 				<ul class="social-icons">
-					<!--<li><a href="#"><span> </span> </a></li>-->
 					<li class="twitter"><a href="https://twitter.com/askthecto"><span></span></a></li>
-					<!--<li class="rss"><a href="#"><span> </span> </a></li>
-					<li class="print"><a href="#"><span> </span> </a></li>-->
 				</ul>
 				</div>
 				<div class="clearfix"> </div>
@@ -161,6 +133,5 @@ to set as background but if you prefer using your own, you can upload and use it
 		</div>
 	</div>
 	<!--Footer-->
-
-</body>
+  </body>
 </html>									

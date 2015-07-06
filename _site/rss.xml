@@ -5,8 +5,8 @@
         <description>Ask The CTO - </description>
         <link></link>
         <link></link>
-        <lastBuildDate>2015-07-02T20:56:32+05:30</lastBuildDate>
-        <pubDate>2015-07-02T20:56:32+05:30</pubDate>
+        <lastBuildDate>2015-07-03T22:32:04+05:30</lastBuildDate>
+        <pubDate>2015-07-03T22:32:04+05:30</pubDate>
         <ttl>1800</ttl>
 
 
@@ -35,124 +35,6 @@ to set as background but if you prefer using your own, you can upload and use it
                 <link>/2014/08/website-dot-me/</link>
                 <guid>/2014/08/website-dot-me</guid>
                 <pubDate>2014-08-07T00:00:00+05:30</pubDate>
-        </item>
-
-        <item>
-                <title>What is WordPress and what it does ?</title>
-                <description>&lt;p&gt;&lt;img src=&quot;http://en-blog.files.wordpress.com/2013/06/new-wordpress-dashboard.png&quot; alt=&quot;Wordpress&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;about&quot;&gt;About&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;WordPress&lt;/em&gt; is a free and open source blogging tool and a content management system (CMS) based on PHP and MySQL, which requires web hosting service. Features include a plug-in architecture and a template system. 
-WordPress is a software script that you can install on your server. To do this you need a web host who meets the minimum requirements and a little time. WordPress is completely customizable and can be used for almost anything. WordPress started as just a blogging system, but has evolved to be used as full content management system and so much more through the thousands of plugins and widgets and themes.
-Prior to WordPress 3.0, WordPress supported one blog per installation, although multiple concurrent copies may be run from different directories if configured to use separate database tables. WordPress Multi-User (WordPress MU, or WPMU) was a fork of WordPress created to allow multiple blogs to exist within one installation but is able to be administered by a centralized maintainer. WordPress MU makes it possible for those with websites to host their own blogging communities, as well as control and moderate all the blogs from a single dashboard. That means on a single installation you can enable your own blogging network or you can use this single installation for your eCommerce website and for your blog also for your business. 
-WordPress MU adds eight new data tables for each blog.&lt;/p&gt;
-
-&lt;h2 id=&quot;popularity&quot;&gt;Popularity&lt;/h2&gt;
-
-&lt;p&gt;WordPress is used by more than 22% of the top 10 million websites as of August 2013. WordPress is the most popular blogging system in use on the Web, at more than 60 million websites. It was first released on May 27, 2003. WordPress 3.9 has been downloaded 34,945,265 times till present date and yet &lt;a href=&quot;https://wordpress.org/download/counter&quot;&gt;counting&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;One very popular feature of WordPress is its plugin architecture which allows users and developers to extend its abilities beyond the core installation. &lt;/li&gt;
-  &lt;li&gt;WordPress has a database of over 26,000 plugins, each of which offers custom functions and features enabling users to tailor their sites to their specific needs. These customizations range from Search Engine Optimization enhancers to content displaying features, such as the addition of widgets and navigation bars.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;more&quot;&gt;More&lt;/h2&gt;
-
-&lt;p&gt;There is also a service called WordPress.com (supported by ads) which lets you get started with a new and free WordPress-based blog in seconds, but varies in several ways and is less flexible than the WordPress you download and install yourself. If your main aim is just to write then WordPress.com is great tool for you but if you’re planning for something big with more possibilities then you should go for WordPress.org(full control) and install it on your WebHostingService/Server .&lt;/p&gt;
-</description>
-                <link>/2014/08/what-is-wordpress/</link>
-                <guid>/2014/08/what-is-wordpress</guid>
-                <pubDate>2014-08-04T00:00:00+05:30</pubDate>
-        </item>
-
-        <item>
-                <title>Getting started with Blogger</title>
-                <description>&lt;p&gt;&lt;img src=&quot;http://i.dailymail.co.uk/i/pix/2012/02/02/article-2095328-118FAD54000005DC-568_634x422.jpg&quot; alt=&quot;Blogger&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;blogger&quot;&gt;Blogger&lt;/h2&gt;
-
-&lt;p&gt;is a free, fast, powerful and easy-to-use blogging platform by Google. It is very easy to get a blog with &lt;a href=&quot;http://blogger.com&quot;&gt;http://blogger.com&lt;/a&gt; . 
-All you need is a Google Account if you already have one then just sing into blogger with your existing Google account or you can Sign up for an account. 
-As Blogger is backed by Google you’ve lots of help articles and of-course there are &lt;a href=&quot;http://productforums.google.com/forum/#!forum/blogger&quot; target=&quot;_blank&quot;&gt;Blogger Help Forums (BHF)&lt;/a&gt; where you can get help with anything. 
-If you’re a newbie and don’t want to spend any money on it yet, then this platform is good for you to start, you pay nothing for it and you can have multiple blogs .
-You get xxxxxx.’blogspot.com’ address but you’ve option to use custom domain with it or you can continue with free ‘blogspot.com’ subdomain.&lt;/p&gt;
-
-&lt;h2 id=&quot;interface&quot;&gt;Interface&lt;/h2&gt;
-&lt;p&gt;To start, visit Blogger homepage(assuming you’ve signed in/up already),  then click the Create a Blog link. 
-Pick an address (eg. blogname.blogspot.com) and a blog title (eg. My Blog). Then, choose a blog template (you can download &amp;amp; apply a custom template later ). 
-Now add information to your personal profile and you’ve option to customize blog’s look.&lt;/p&gt;
-
-&lt;p&gt;Now Dashboard is your starting point. This is where all your blogs are listed, and you can see icons and click on them to perform various actions on each blog, such as:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Writing a new post: Just click on the orange Pencil icon on your Dashboard to access the Post Editor.&lt;/li&gt;
-  &lt;li&gt;Viewing your posts: The gray Post List icon will take you to a list of your published and drafted posts for a specific blog.&lt;/li&gt;
-  &lt;li&gt;Catching up on your favorite blogs: Below the list of your own blogs, you’ll see a list of the blogs you follow with an excerpt from their latest posts.&lt;/li&gt;
-  &lt;li&gt;Everything else: Check out the drop-down menu next to the Post List icon for a quick links.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;writing&quot;&gt;Writing&lt;/h2&gt;
-
-&lt;p&gt;Writing a post in blogger is very easy. Once you’ve clicked the orange pencil icon to write a new post you’ll see the Post Editor page, 
-Start by giving your post a title &amp;amp; then enter the post itself. 
-When you’re done, you can click the Preview button at the top to make sure it’s ready to go, and then click the Publish button to publish your post.&lt;/p&gt;
-
-&lt;h2 id=&quot;more&quot;&gt;More&lt;/h2&gt;
-&lt;p&gt;You can add &amp;amp; embed media like images, videos. You also have option to make your blog available/accessible to limited/invited users only. You can add Gadgets to your blog and you’ve option to add author to your blog. &lt;/p&gt;
-
-&lt;p&gt;Start Blogging Now !&lt;/p&gt;
-</description>
-                <link>/2014/08/getting-started-with-blogger/</link>
-                <guid>/2014/08/getting-started-with-blogger</guid>
-                <pubDate>2014-08-03T00:00:00+05:30</pubDate>
-        </item>
-
-        <item>
-                <title>One page Multiple networks | About.me</title>
-                <description>&lt;p&gt;&lt;img src=&quot;https://d2ed0w4q03gsmw.cloudfront.net/e7af0e9/images/store/premium-demo.png&quot; alt=&quot;about.me&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;about&quot;&gt;About&lt;/h2&gt;
-
-&lt;p&gt;If you’ve not already used the service let me tell me about &lt;a href=&quot;http://about.me&quot;&gt;http://about.me&lt;/a&gt; which is precisely a cool service available. Most of us usually have joined more than one 
-network, be it job portals, social networks or just websites and if you’ve to tell someone about all of them it could be a tedious task to do. So, here comes the &lt;a href=&quot;http://about.me&quot;&gt;http://about.me&lt;/a&gt;, it lets you add all of your account under one page, add all your 
-social links/websites, contact details and bio. If you want  you can list all your skills and get exposure, and good if you’re looking for a job. You get a personal URL i.e. &lt;em&gt;http://about.me/myname&lt;/em&gt;. About.me collects all the feeds from your social profiles and can display it 
-on your about me page, if you’ve updated a status on Facebook people can see it right there on your page, have a blog ? no problem, it will display your posts on your very personal page.&lt;/p&gt;
-
-&lt;h2 id=&quot;interface&quot;&gt;Interface&lt;/h2&gt;
-
-&lt;p&gt;Signing up for the service is quite easy, you can sign-up using your social network or if you prefer using email address instead, you can go for that. After signing up and confirming email
-you’ll get access to your account where you can add all the information about you, like name , description and anything else you like, by default you’re provided with some beautiful images
-to set as background but if you prefer using your own, you can upload and use it as background. The box containing all your information is movable so, place it where ever you like on the display.&lt;/p&gt;
-
-&lt;h2 id=&quot;plans&quot;&gt;Plans&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://about.me&quot;&gt;http://about.me&lt;/a&gt;  offer 2 plans at this time &lt;em&gt;basic&lt;/em&gt; and &lt;em&gt;premium&lt;/em&gt;, and they are planning to launch another soon which is &lt;em&gt;promote&lt;/em&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;basic&lt;/strong&gt; is a free account and obviously basic features are available.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;premium&lt;/strong&gt; costs $4/month &amp;amp; includes all the features of basic account and you can use a custom domain (myname.com) and remove &lt;em&gt;about.me&lt;/em&gt; branding, add Google analytics, and get premium support.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;promote&lt;/strong&gt; &lt;em&gt;(coming soon)&lt;/em&gt; costs $9/month they haven’t yet revealed all the details/features about plan but as per there saying “Get more exposure through the about.me network with featured placement in directories and search”.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-                <link>/2014/08/about-dot-me/</link>
-                <guid>/2014/08/about-dot-me</guid>
-                <pubDate>2014-08-02T00:00:00+05:30</pubDate>
-        </item>
-
-        <item>
-                <title>LetsFiddle Introduction</title>
-                <description>&lt;p&gt;Great you’re here. The question you must be having in your mind right now must be &lt;em&gt;“What this site is all about ?”&lt;/em&gt;. Well, here I’d like to explain a bit what it is all about.
-The web is full of surprises and there’s a wonder everyday, just like many others I like to play around the web looking for new inventions, sites, and all that stuff and believe me
-I’m always stunned looking at those experiment people doing on the web to bring us more of the web. So, maybe people want to know about these miracles happening around the web .
-So, I decided to start writing about this all, I’ll pick a service/site and write about what it is, what it does and all the stuff that one might be interested in. It’s always good to know
-all the new stuff around the web. So, LetsFiddle is all about fiddling around the web and exploring new, great things. &lt;/p&gt;
-</description>
-                <link>/2014/08/what-is-letsfiddle/</link>
-                <guid>/2014/08/what-is-letsfiddle</guid>
-                <pubDate>2014-08-01T00:00:00+05:30</pubDate>
         </item>
 
 
